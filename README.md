@@ -68,38 +68,7 @@ egitimplatformu/
 └── yanlis.mp3           # Yanlış cevap sesi
 ```
 
----
 
-## 🚀 Kurulum
-
-### 1. Repoyu klonlayın
-```bash
-git clone https://github.com/MehmetEmre09/egitimplatformu.git
-cd egitimplatformu
-```
-
-### 2. Veritabanını kurun
-MySQL'de yeni bir veritabanı oluşturun ve SQL dosyasını içe aktarın:
-```bash
-mysql -u root -p egitim_db < veritabani_kurulum.sql
-```
-
-### 3. Bağlantı ayarlarını yapılandırın
-`baglan.php` dosyasını kendi veritabanı bilgilerinizle güncelleyin:
-```php
-$host = 'localhost';
-$dbname = 'egitim_db';
-$user = 'root';
-$pass = 'sifreniz';
-```
-
-### 4. Sunucuyu başlatın
-Projeyi XAMPP, WAMP veya herhangi bir PHP destekli sunucuya taşıyın ve tarayıcıda açın:
-```
-http://localhost/egitimplatformu/giris.php
-```
-
----
 
 ## 🗄️ Veritabanı Yapısı
 
